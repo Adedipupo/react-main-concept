@@ -7,10 +7,10 @@ const user = {
 }
 
 function User(user) {
-  return user.firstName + '' + user.lastName; 
+  return user.firstName + ' ' + user.lastNAme; 
 }
 
-const element = <h1> H1 , {User(user)}</h1>;
+const element = (<h1> H1 , {User(user)}</h1>);
 function App(user) {
   return (
     <div>
