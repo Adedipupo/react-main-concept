@@ -20,4 +20,8 @@ function App(user) {
   );
 }
 
+function tick(){
+  
+}
+
 export default App;
