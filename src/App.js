@@ -21,6 +21,7 @@ function App(user) {
 }
 
 function tick(){
+  return (
   const time = (
     <div>
       <h1>Hello </h1>
@@ -28,7 +29,7 @@ function tick(){
     </div>
   )
   setInterval(tick, 1000);
-  return(tick())
+  );
 }
 
 export default App;
