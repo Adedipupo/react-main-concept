@@ -14,20 +14,11 @@ const element = (<h1> H1 , {User(user)}</h1>);
 function App(user) {
   return (
     <div>
-     {element};
+     {element}
      
     </div>
   );
 }
 
-function tick(){
-  const time = (
-    <div>
-      <h1>Hello </h1>
-      <h2>It is {new Date().toLocaleTimeString()}</h2>
-    </div>
-  )
-  setInterval(tick, 1000);
-}
 
 export default App;
