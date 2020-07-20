@@ -24,6 +24,7 @@ function tick(){
   const time = (
     <div>
       <h1>Hello </h1>
+  <h2>It is {new Date().toLocaleTimeString}</h2>
     </div>
   )
 }
