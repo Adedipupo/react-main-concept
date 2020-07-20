@@ -21,7 +21,11 @@ function App(user) {
 }
 
 function tick(){
-  
+  const time = (
+    <div>
+      <h1>Hello </h1>
+    </div>
+  )
 }
 
 export default App;
