@@ -28,6 +28,7 @@ function tick(){
     </div>
   )
   setInterval(tick, 1000);
+  return(tick())
 }
 
 export default App;
