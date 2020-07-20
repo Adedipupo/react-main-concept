@@ -6,6 +6,10 @@ const user = {
   lastNAme : 'Adedipupo'
 }
 
+function User(user) {
+  return `user.firstName + '' + user.lastName` 
+}
+
 function App(user) {
   return (
     <div>
