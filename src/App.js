@@ -2,10 +2,11 @@ import React from 'react';
 import './App.css';
 
 function App() {
+  const element = <h1>Hello World !!!</h1>;
   return (
     <div>
-     const element = <h1>Hello World !!!</h1>;
-     element;
+     
+     {element}
     </div>
   );
 }
